@@ -513,3 +513,14 @@ a:active {
         opacity: 1;
     }
 }
+
+div.clickEffect {
+    position: fixed;
+    box-sizing: border-box;
+    border-radius: 50%;
+    z-index: 99999;
+}
+
+.clickable {
+    display: inline-block;
+}
