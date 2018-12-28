@@ -517,8 +517,12 @@ a:active {
 div.clickEffect {
     position: fixed;
     box-sizing: border-box;
+    border-style: solid;
+    border-color: #FF00FF;
     border-radius: 50%;
     z-index: 99999;
+    width: 1px;
+    height: 1px;
 }
 
 .clickable {
